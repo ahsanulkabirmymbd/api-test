@@ -24,9 +24,7 @@ app.use('/user/searchusersbyname', require('./routes/user/searchusersbyname'));
 app.use('/user/checkuserauthentication', require('./routes/user/checkuserauthentication'));
 app.use('/user/adduser', require('./routes/user/adduser'));
 app.use('/user/updateuser', require('./routes/user/updateuser'));
-/* --- IGNORE ---
 app.use('/user/deleteuser', require('./routes/user/deleteuser'));
---- IGNORE --- */
 
 /**************/
 /* Routes End */
